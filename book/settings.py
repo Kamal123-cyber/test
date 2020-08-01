@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bookstore',
+    'user',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -122,3 +124,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),
     '/var/www/static/',
     ]
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
