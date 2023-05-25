@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-avanv+w#wp!ixpob(x)unrvdldnf5(lav93x_4@$idlvtwnu3a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
